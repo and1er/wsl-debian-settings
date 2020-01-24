@@ -61,5 +61,11 @@ sudo apt install \
 Python pip packages installation:
 
 ```bash
-pip3 install --upgrade --user pip ansible paramiko
+python3 -m pip install --upgrade --user pip ansible paramiko
+```
+
+Making the user locally installed packages available in system `$PATH` (may be should be placed to `~/.profile` or `~/.bash_profile` (without `export` keyword) to be consistent):
+
+```bash
+export PATH=$PATH:~/.local/bin/
 ```
