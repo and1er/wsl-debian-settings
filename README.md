@@ -33,20 +33,20 @@ New password:
 Retype new password:
 passwd: password updated successfully
 Installation successful!
-alosenkov@LOSENKOV-A:~$ 
+alosenkov@LOSENKOV-A:~$
 ```
 
 The clear WSL distro is ready to work.
 
 ## Initial Installation
 
-Upgrading the distro:
+### Upgrading the distro
 
 ```bash
 sudo apt update && sudo apt full-upgrade
 ```
 
-Package installation
+### Package installation
 
 ```bash
 sudo apt install \
@@ -58,7 +58,7 @@ sudo apt install \
     curl
 ```
 
-Python pip packages installation:
+### Python pip packages installation
 
 ```bash
 python3 -m pip install --upgrade --user pip ansible paramiko
