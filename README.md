@@ -69,3 +69,10 @@ Making the user locally installed packages available in system `$PATH` (may be s
 ```bash
 export PATH=$PATH:~/.local/bin/
 ```
+
+### Generate SSH keys
+
+```bash
+mkdir -p ~/.ssh \
+    && ssh-keygen -t rsa -q -N '' -f ~/.ssh/id_rsa
+```
