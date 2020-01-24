@@ -55,7 +55,9 @@ sudo apt install \
     python3 \
     python3-pip \
     ssh-client \
-    curl
+    sshpass \
+    curl \
+    rsync
 ```
 
 ### Python pip packages installation
