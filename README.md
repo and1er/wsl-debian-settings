@@ -53,6 +53,13 @@ sudo apt install \
     man-db \
     vim \
     python3 \
-    ssh-client
+    python3-pip \
+    ssh-client \
+    curl
+```
 
+Python pip packages installation:
+
+```bash
+pip3 install --upgrade --user pip ansible paramiko
 ```
