@@ -57,7 +57,8 @@ sudo apt install \
     ssh-client \
     sshpass \
     curl \
-    rsync
+    rsync \
+    tree
 ```
 
 ### Python pip packages installation
