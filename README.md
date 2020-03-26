@@ -79,3 +79,24 @@ export PATH=$PATH:~/.local/bin/
 mkdir -p ~/.ssh \
     && ssh-keygen -t rsa -q -N '' -f ~/.ssh/id_rsa
 ```
+
+### Change prompt command color
+
+The default color is green and it is the same as default color on Debian servers. To make the color different
+
+```bash
+vim ~/.bashrc 
+```
+
+аnd in block
+
+```vim
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+unset color_prompt force_color_prompt
+```
+
+change light-green `01;32` to light-yellow `01;33`.
