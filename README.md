@@ -58,7 +58,8 @@ sudo apt install \
     sshpass \
     curl \
     rsync \
-    tree
+    tree \
+    wget
 ```
 
 ### Python pip packages installation
