@@ -101,3 +101,25 @@ unset color_prompt force_color_prompt
 ```
 
 the light-green color `01;32` was changed to light-yellow `01;33`.
+
+### Ping without `sudo`
+
+By default `/bin/ping` does not have `SUID` permissions bit:
+
+```bash
+$ ls -l /bin/ping
+-rwxr-xr-x 1 root root 65272 Aug  3  2018 /bin/ping
+```
+
+and `ping` requires `sudo`. To avoid this run
+
+```bash
+$ sudo chmod +s /bin/ping
+```
+
+The result:
+
+```
+ls -l /bin/ping
+-rwsr-sr-x 1 root root 65272 Aug  3  2018 /bin/ping
+```
