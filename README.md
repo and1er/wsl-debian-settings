@@ -59,7 +59,10 @@ sudo apt install \
     curl \
     rsync \
     tree \
-    wget
+    wget \
+    dnsutils \
+    nfs-common
+    
 ```
 
 ### Python pip packages installation
