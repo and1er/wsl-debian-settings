@@ -51,6 +51,7 @@ sudo apt update && sudo apt full-upgrade
 ```bash
 sudo apt install \
     man-db \
+    man \
     vim \
     python3 \
     python3-pip \
