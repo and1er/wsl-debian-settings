@@ -58,6 +58,7 @@ sudo apt install \
     ssh-client \
     sshpass \
     curl \
+    telnet \
     rsync \
     tree \
     wget \
