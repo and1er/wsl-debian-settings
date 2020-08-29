@@ -79,7 +79,8 @@ sudo apt install \
     tree \
     wget \
     dnsutils \
-    nfs-common
+    nfs-common \
+    git
 ```
 
 ### Python pip packages installation
