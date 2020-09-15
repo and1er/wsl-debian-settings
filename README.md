@@ -80,7 +80,8 @@ sudo apt install \
     wget \
     dnsutils \
     nfs-common \
-    git
+    git \
+    tree
 ```
 
 ### Python pip packages installation
