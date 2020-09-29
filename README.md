@@ -81,7 +81,8 @@ sudo apt install \
     dnsutils \
     nfs-common \
     git \
-    tree
+    tree \
+    jq
 ```
 
 ### Python pip packages installation
