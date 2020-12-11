@@ -160,6 +160,39 @@ $ cat /etc/resolv.conf
 ...
 ```
 
+### Terraform Installation
+
+Get an archive with a binary from [Terraform download page](https://www.terraform.io/downloads.html)
+
+```bash
+wget https://releases.hashicorp.com/terraform/0.14.2/terraform_0.14.2_linux_amd64.zip
+```
+
+Unzip
+
+```bash
+unzip ./terraform_0.14.2_linux_amd64.zip
+```
+
+And move the standalone executable to user's binary path
+
+```bash
+mv terraform ~/.local/bin/
+```
+
+Check that Terraform works
+
+```bash
+~$ terraform --version
+Terraform v0.14.2
+```
+
+and clean cwd
+
+```bat
+rm ./terraform_0.14.2_linux_amd64.zip
+```
+
 ## Resetting the Distro
 
 To revert the distro to the factory defaults: [Reset and Unregister WSL Linux Distro in Windows 10](https://winaero.com/blog/reset-unregister-wsl-linux-distro-windows-10/)
