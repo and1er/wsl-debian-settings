@@ -82,7 +82,8 @@ sudo apt install \
     nfs-common \
     git \
     tree \
-    jq
+    jq \
+    unzip
 ```
 
 ### Python pip packages installation
