@@ -71,6 +71,7 @@ sudo apt install \
     vim \
     python3 \
     python3-pip \
+    python3-venv \
     ssh-client \
     sshpass \
     curl \
