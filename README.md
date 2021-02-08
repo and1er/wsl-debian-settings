@@ -1,6 +1,6 @@
 # wsl-debian-settings
 
-[![GitHub Super-Linter](https://github.com/and1er/wsl-settings/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![GitHub Super-Linter](https://github.com/and1er/wsl-debian-settings/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 Settings and package installations that I use for WSL Debian on Windows 10 update 2004 or higher to help myself to reproduce the environment in clear WSL Debian distro.
 
