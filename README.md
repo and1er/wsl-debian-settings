@@ -54,6 +54,18 @@ According to the official Microsoft guide: [Windows Subsystem for Linux Installa
 
 7. Done!
 
+## Check WSL version
+
+Try running this command in powershell
+
+```powershell
+> wsl -l -v
+  NAME      STATE           VERSION
+* Debian    Running         2
+```
+
+If you get any errors running `wsl -l -v` it is 100% WSL 1.
+
 ## Distro Initial Setup
 
 ### Upgrading the distro
